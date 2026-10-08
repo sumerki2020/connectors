@@ -1,0 +1,817 @@
+{
+ "generated": "2026-10-08",
+ "books": [
+  {
+   "id": "g1342",
+   "title": "Pride and Prejudice",
+   "author": "Jane Austen",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g2701",
+   "title": "Moby Dick",
+   "author": "Herman Melville",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g84",
+   "title": "Frankenstein",
+   "author": "Mary Wollstonecraft Shelley",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g11",
+   "title": "Alice's Adventures in Wonderland",
+   "author": "Lewis Carroll",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g1661",
+   "title": "The Adventures of Sherlock Holmes",
+   "author": "Arthur Conan Doyle",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g345",
+   "title": "Dracula",
+   "author": "Bram Stoker",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g2554",
+   "title": "Crime and Punishment",
+   "author": "Fyodor Dostoyevsky",
+   "lang": "en",
+   "translation": true
+  },
+  {
+   "id": "g43",
+   "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+   "author": "Robert Louis Stevenson",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g2641",
+   "title": "A Room with a View",
+   "author": "E. M. Forster",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g145",
+   "title": "Middlemarch",
+   "author": "George Eliot",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g37106",
+   "title": "Little Women",
+   "author": "Louisa May Alcott",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g67979",
+   "title": "The Blue Castle",
+   "author": "L. M. Montgomery",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g1260",
+   "title": "Jane Eyre",
+   "author": "Charlotte Brontë",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g21839",
+   "title": "Sense and Sensibility",
+   "author": "Jane Austen",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g174",
+   "title": "The Picture of Dorian Gray",
+   "author": "Oscar Wilde",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g1184",
+   "title": "The Count of Monte Cristo",
+   "author": "Alexandre Dumas, Auguste Maquet",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g98",
+   "title": "A Tale of Two Cities",
+   "author": "Charles Dickens",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g64317",
+   "title": "The Great Gatsby",
+   "author": "F. Scott Fitzgerald",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g65238",
+   "title": "The Secret of Chimneys",
+   "author": "Agatha Christie",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g5200",
+   "title": "Metamorphosis",
+   "author": "Franz Kafka",
+   "lang": "en",
+   "translation": true
+  },
+  {
+   "id": "g16389",
+   "title": "The Enchanted April",
+   "author": "Elizabeth Von Arnim",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g1952",
+   "title": "The Yellow Wallpaper",
+   "author": "Charlotte Perkins Gilman",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g20546",
+   "title": "The Hand in the Dark",
+   "author": "Arthur J. Rees",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g1259",
+   "title": "Twenty years after",
+   "author": "Alexandre Dumas, Auguste Maquet",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g2600",
+   "title": "War and Peace",
+   "author": "Leo, Tolstoy",
+   "lang": "en",
+   "translation": true
+  },
+  {
+   "id": "g394",
+   "title": "Cranford",
+   "author": "Elizabeth Cleghorn Gaskell",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g2160",
+   "title": "The Expedition of Humphry Clinker",
+   "author": "T. Smollett",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g6761",
+   "title": "The Adventures of Ferdinand Count Fathom",
+   "author": "T. Smollett",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g6593",
+   "title": "History of Tom Jones, a Foundling",
+   "author": "Henry Fielding",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g74",
+   "title": "The Adventures of Tom Sawyer",
+   "author": "Mark Twain",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g28054",
+   "title": "The Brothers Karamazov",
+   "author": "Fyodor Dostoyevsky",
+   "lang": "en",
+   "translation": true
+  },
+  {
+   "id": "g4085",
+   "title": "The Adventures of Roderick Random",
+   "author": "T. Smollett",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g17460",
+   "title": "Lorna Doone",
+   "author": "R. D. Blackmore",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g55",
+   "title": "The Wonderful Wizard of Oz",
+   "author": "L. Frank Baum",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g1400",
+   "title": "Great Expectations",
+   "author": "Charles Dickens",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g244",
+   "title": "A Study in Scarlet",
+   "author": "Arthur Conan Doyle",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g76",
+   "title": "Adventures of Huckleberry Finn",
+   "author": "Mark Twain",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g768",
+   "title": "Wuthering Heights",
+   "author": "Emily Brontë",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g4300",
+   "title": "Ulysses",
+   "author": "James Joyce",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g41",
+   "title": "The Legend of Sleepy Hollow",
+   "author": "Washington Irving",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g120",
+   "title": "Treasure Island",
+   "author": "Robert Louis Stevenson",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g18857",
+   "title": "A Journey to the Centre of the Earth",
+   "author": "Jules Verne",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g2852",
+   "title": "The Hound of the Baskervilles",
+   "author": "Arthur Conan Doyle",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g45",
+   "title": "Anne of Green Gables",
+   "author": "L. M. Montgomery",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g3268",
+   "title": "The Mysteries of Udolpho",
+   "author": "Ann Ward Radcliffe",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g61262",
+   "title": "Poirot Investigates",
+   "author": "Agatha Christie",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g58866",
+   "title": "The Murder on the Links",
+   "author": "Agatha Christie",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g209",
+   "title": "The Turn of the Screw",
+   "author": "Henry James",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g61168",
+   "title": "The Man in the Brown Suit",
+   "author": "Agatha Christie",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "g46",
+   "title": "A Christmas Carol in Prose",
+   "author": "Charles Dickens",
+   "lang": "en",
+   "translation": false
+  },
+  {
+   "id": "ru-kapitanskaya-dochka",
+   "title": "Капитанская дочка",
+   "author": "Александр Пушкин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-dubrovskij",
+   "title": "Дубровский",
+   "author": "Александр Пушкин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-pikovaya-dama",
+   "title": "Пиковая дама",
+   "author": "Александр Пушкин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-geroj-nashego-vremeni",
+   "title": "Герой нашего времени",
+   "author": "Михаил Лермонтов",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-mertvye-dushi",
+   "title": "Мёртвые души",
+   "author": "Николай Гоголь",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-shinel",
+   "title": "Шинель",
+   "author": "Николай Гоголь",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-taras-bulba",
+   "title": "Тарас Бульба",
+   "author": "Николай Гоголь",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-nos",
+   "title": "Нос",
+   "author": "Николай Гоголь",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-otcy-i-deti",
+   "title": "Отцы и дети",
+   "author": "Иван Тургенев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-dvoryanskoe-gnezdo",
+   "title": "Дворянское гнездо",
+   "author": "Иван Тургенев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-asya",
+   "title": "Ася",
+   "author": "Иван Тургенев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-pervaya-lyubov",
+   "title": "Первая любовь",
+   "author": "Иван Тургенев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-mumu",
+   "title": "Муму",
+   "author": "Иван Тургенев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-oblomov",
+   "title": "Обломов",
+   "author": "Иван Гончаров",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-obyknovennaya-istoriya",
+   "title": "Обыкновенная история",
+   "author": "Иван Гончаров",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-prestuplenie-i-nakazanie",
+   "title": "Преступление и наказание",
+   "author": "Фёдор Достоевский",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-idiot",
+   "title": "Идиот",
+   "author": "Фёдор Достоевский",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-bratya-karamazovy",
+   "title": "Братья Карамазовы",
+   "author": "Фёдор Достоевский",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-besy",
+   "title": "Бесы",
+   "author": "Фёдор Достоевский",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-igrok",
+   "title": "Игрок",
+   "author": "Фёдор Достоевский",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-bednye-lyudi",
+   "title": "Бедные люди",
+   "author": "Фёдор Достоевский",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-anna-karenina",
+   "title": "Анна Каренина",
+   "author": "Лев Толстой",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-vojna-i-mir",
+   "title": "Война и мир",
+   "author": "Лев Толстой",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-voskresenie",
+   "title": "Воскресение",
+   "author": "Лев Толстой",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-detstvo-tolstoj",
+   "title": "Детство",
+   "author": "Лев Толстой",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-dama-s-sobachkoj",
+   "title": "Дама с собачкой",
+   "author": "Антон Чехов",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-step",
+   "title": "Степь",
+   "author": "Антон Чехов",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-kashtanka",
+   "title": "Каштанка",
+   "author": "Антон Чехов",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-dushechka",
+   "title": "Душечка",
+   "author": "Антон Чехов",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-ocharovannyj-strannik",
+   "title": "Очарованный странник",
+   "author": "Николай Лесков",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-ledi-makbet",
+   "title": "Леди Макбет Мценского уезда",
+   "author": "Николай Лесков",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-gospoda-golovlevy",
+   "title": "Господа Головлёвы",
+   "author": "Михаил Салтыков-Щедрин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-istoriya-odnogo-goroda",
+   "title": "История одного города",
+   "author": "Михаил Салтыков-Щедрин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-granatovyj-braslet",
+   "title": "Гранатовый браслет",
+   "author": "Александр Куприн",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-olesya",
+   "title": "Олеся",
+   "author": "Александр Куприн",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-poedinok",
+   "title": "Поединок",
+   "author": "Александр Куприн",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-detstvo-gorkij",
+   "title": "Детство",
+   "author": "Максим Горький",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-staruha-izergil",
+   "title": "Старуха Изергиль",
+   "author": "Максим Горький",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-chelkash",
+   "title": "Челкаш",
+   "author": "Максим Горький",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-iuda-iskariot",
+   "title": "Иуда Искариот",
+   "author": "Леонид Андреев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-krasnyj-smeh",
+   "title": "Красный смех",
+   "author": "Леонид Андреев",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-belaya-gvardiya",
+   "title": "Белая гвардия",
+   "author": "Михаил Булгаков",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-rokovye-yajca",
+   "title": "Роковые яйца",
+   "author": "Михаил Булгаков",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-my",
+   "title": "Мы",
+   "author": "Евгений Замятин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-alye-parusa",
+   "title": "Алые паруса",
+   "author": "Александр Грин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-begushchaya-po-volnam",
+   "title": "Бегущая по волнам",
+   "author": "Александр Грин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-deti-podzemelya",
+   "title": "Дети подземелья",
+   "author": "Владимир Короленко",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-slepoj-muzykant",
+   "title": "Слепой музыкант",
+   "author": "Владимир Короленко",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-signal",
+   "title": "Сигнал",
+   "author": "Всеволод Гаршин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-krasnyj-cvetok",
+   "title": "Красный цветок",
+   "author": "Всеволод Гаршин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-antonovskie-yabloki",
+   "title": "Антоновские яблоки",
+   "author": "Иван Бунин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-derevnya",
+   "title": "Деревня",
+   "author": "Иван Бунин",
+   "lang": "ru",
+   "translation": false
+  },
+  {
+   "id": "ru-tri-mushketera",
+   "title": "Три мушкетёра",
+   "author": "Александр Дюма",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-graf-monte-kristo",
+   "title": "Граф Монте-Кристо",
+   "author": "Александр Дюма",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-oliver-tvist",
+   "title": "Приключения Оливера Твиста",
+   "author": "Чарльз Диккенс",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-devid-kopperfild",
+   "title": "Жизнь Дэвида Копперфилда, рассказанная им самим",
+   "author": "Чарльз Диккенс",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-don-kihot",
+   "title": "Хитроумный идальго Дон Кихот Ламанчский",
+   "author": "Мигель де Сервантес",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-sobor-parizhskoj-bogomateri",
+   "title": "Собор Парижской Богоматери",
+   "author": "Виктор Гюго",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-otverzhennye",
+   "title": "Отверженные",
+   "author": "Виктор Гюго",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-vojna-mirov",
+   "title": "Война миров",
+   "author": "Герберт Уэллс",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-mashina-vremeni",
+   "title": "Машина времени",
+   "author": "Герберт Уэллс",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-chelovek-nevidimka",
+   "title": "Человек-невидимка",
+   "author": "Герберт Уэллс",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-dzhen-ejr",
+   "title": "Джен Эйр",
+   "author": "Шарлотта Бронте",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-otec-gorio",
+   "title": "Отец Горио",
+   "author": "Оноре де Бальзак",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-20000-le-pod-vodoj",
+   "title": "Двадцать тысяч лье под водой",
+   "author": "Жюль Верн",
+   "lang": "ru",
+   "translation": true
+  },
+  {
+   "id": "ru-deti-kapitana-granta",
+   "title": "Дети капитана Гранта",
+   "author": "Жюль Верн",
+   "lang": "ru",
+   "translation": true
+  }
+ ]
+}

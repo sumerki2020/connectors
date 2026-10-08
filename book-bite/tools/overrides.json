@@ -1,0 +1,21 @@
+{
+  "g145": {"start_after": "^PRELUDE"},
+  "g6593": {"start_after": "^The introduction to the work, or bill of fare"},
+  "g8492": {"start_after": "^“Ne raillons pas les fous"},
+  "g31469": {"start_after": "^Howard Phillips Lovecraft died"},
+  "g41": {"start_after": "castle of indolence"},
+  "g120": {"start_after": "The Old Sea-dog at the Admiral Benbow"},
+  "g244": {"start_after": "^\\(Being a reprint"},
+  "g3268": {"start_after": "^home is the resort"},
+  "g58866": {"start_after": "Fellow Traveller"},
+  "ru-besy": {"start_after": "^Евангелие от Луки"},
+  "ru-istoriya-odnogo-goroda": {"start_after": "^Том 8\\. Помпадуры и помпадурши"},
+  "ru-deti-podzemelya": {"start_after": "^## 1\\. Развалины"},
+  "ru-tri-mushketera": {"start_after": "ТРИ ДАРА Г-НА Д'АРТАНЬЯНА-ОТЦА"},
+  "ru-devid-kopperfild": {"start_after": "^## ЖИЗНЬ ДЭВИДА КОППЕРФИЛДА"},
+  "ru-don-kihot": {"start_after": "^## Глава I, в которой идет речь"},
+  "ru-sobor-parizhskoj-bogomateri": {"start_after": "^## I\\. Большая зала"},
+  "ru-begushchaya-po-volnam": {"start_after": "^Л\\.Шадурн"},
+  "ru-voskresenie": {"start_after": "^Лука\\. Гл\\. VI"},
+  "ru-otec-gorio": {"start_after": "^Де Бальзак$"}
+}

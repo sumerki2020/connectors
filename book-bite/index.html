@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17161a" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Guess the book from its opening lines. Random openings of classic Russian and English books.">
+  <title>Book Bite</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1 class="brand"><span aria-hidden="true">📖</span> Book Bite</h1>
+    <div class="filters" role="group" aria-label="Filters">
+      <label class="chip"><input type="checkbox" id="lang-en" checked> EN</label>
+      <label class="chip"><input type="checkbox" id="lang-ru" checked> RU</label>
+      <label class="chip"><input type="checkbox" id="originals-only"> <span data-i18n="originals">Originals only</span></label>
+      <button class="chip ghost" id="settings-btn" type="button" aria-haspopup="dialog" aria-controls="settings" title="Settings">⚙︎</button>
+    </div>
+  </header>
+
+  <main class="card" id="card" aria-live="polite">
+    <p class="meta" id="meta"></p>
+    <article class="text" id="text" lang="en"></article>
+    <p class="status" id="status" hidden></p>
+    <section class="reveal" id="reveal" hidden>
+      <h2 class="title" id="book-title"></h2>
+      <p class="author" id="book-author"></p>
+      <p class="source"><a id="book-link" href="#" target="_blank" rel="noopener">Source</a></p>
+    </section>
+  </main>
+
+  <nav class="bar" aria-label="Actions">
+    <button class="btn" id="more" type="button"><span>More</span><kbd>space</kbd></button>
+    <button class="btn primary" id="reveal-btn" type="button"><span>Reveal</span><kbd>enter</kbd></button>
+    <button class="btn" id="next" type="button"><span>Next book</span><kbd>n</kbd></button>
+  </nav>
+
+  <dialog id="settings" class="settings">
+    <form method="dialog">
+      <h2>Settings</h2>
+      <fieldset>
+        <legend>Reveal text by</legend>
+        <label><input type="radio" name="mode" value="paragraph" checked> Paragraph</label>
+        <label><input type="radio" name="mode" value="sentence"> Sentence</label>
+        <label><input type="radio" name="mode" value="chunk"> About 1 KB at a time</label>
+      </fieldset>
+      <fieldset>
+        <legend>Text size</legend>
+        <label><input type="radio" name="size" value="s"> Small</label>
+        <label><input type="radio" name="size" value="m" checked> Medium</label>
+        <label><input type="radio" name="size" value="l"> Large</label>
+      </fieldset>
+      <p class="hint" id="count"></p>
+      <p class="hint">Texts come from <a href="https://www.gutenberg.org/" target="_blank" rel="noopener">Project Gutenberg</a> and <a href="http://lib.ru/" target="_blank" rel="noopener">Lib.ru</a>. Only the opening of each book is stored.</p>
+      <menu>
+        <button type="button" id="reset-seen" class="btn">Forget seen books</button>
+        <button type="submit" class="btn primary">Done</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

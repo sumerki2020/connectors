@@ -1,0 +1,13 @@
+{
+  "name": "Book Bite",
+  "short_name": "Book Bite",
+  "description": "Guess the book from its opening lines.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#f6f1e7",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
