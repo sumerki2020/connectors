@@ -1,0 +1,35 @@
+name: Deploy Book Bite to GitHub Pages
+
+on:
+  push:
+    branches: [master, claude/book-bite-app-gk90i9]
+    paths: ["book-bite/**", ".github/workflows/book-bite-pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: book-bite-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Drop build tooling from the published site
+        run: rm -rf book-bite/tools
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: book-bite
+      - id: deployment
+        uses: actions/deploy-pages@v4
